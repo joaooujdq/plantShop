@@ -1,0 +1,6 @@
+#page-home .content header a{
+    size: 500px 600px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+      align-items: center;
+  }
