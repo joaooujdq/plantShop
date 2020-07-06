@@ -1,0 +1,55 @@
+
+
+#page-shop .content header h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 59px;
+    color: var(--primary-color);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+
+#page-shop .content header #gridSearchBar #reference img{
+    width: 96px;
+    height: 96px;
+    margin-left: 400px;
+    
+}
+#page-shop .content header #gridSearchBar #reference div{
+    font-size: 12px;
+    padding-top: 30px;
+    padding-left: 300px;
+}
+
+#page-shop .content header #gridSearchBar{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#page-shop .content header #gridSearchBar input{
+    width: 600px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 8px 0px 0px 8px;
+    border: 0;
+    font-size: inherit;
+    padding-left : 10px;
+}
+#page-shop .content header #gridSearchBar a {
+    background-color: var(--primary-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+#page-shop .content header #gridSearchBar a span FiSearch{
+    color: #FFF;
+    height: 30px;
+    width: 30px;
+  
+}

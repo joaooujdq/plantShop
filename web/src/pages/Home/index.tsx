@@ -4,7 +4,7 @@ import './styles.css';
 
 const Home: React.FC = () => {
     return (
-        <div id="home-page">
+        <div id="page-home">
             <div className="content"> 
             <header>
             <Link to="/shop">
