@@ -5,11 +5,12 @@
     justify-content: center;
     padding-top: 59px;
     color: var(--primary-color);
-    font-family: Ubuntu;
+    font-family: Ubuntu, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
 }
+
 
 
 
@@ -22,7 +23,7 @@
 #page-shop .content header #gridSearchBar #reference div{
     font-size: 12px;
     padding-top: 30px;
-    padding-left: 300px;
+    padding-left: 280px;
 }
 
 #page-shop .content header #gridSearchBar{
@@ -40,16 +41,109 @@
     font-size: inherit;
     padding-left : 10px;
 }
-#page-shop .content header #gridSearchBar a {
+#page-shop .content header #gridSearchBar #searchButton {
     background-color: var(--primary-color);
     height: 40px;
     width: 40px;
     border-radius: 0px 8px 8px 0px;
 }
 
-#page-shop .content header #gridSearchBar a span FiSearch{
-    color: #FFF;
+#page-shop .content header #gridSearchBar #searchButton span #fiSearch{
+    stroke: #fff;
     height: 30px;
     width: 30px;
-  
+    margin: 5px;
 }
+
+#page-shop .content header #gridSearchBar #userButtons #userIcons{
+    stroke: var(--primary-color);
+    height: 30px;
+    width: 30px;
+    
+}
+
+#page-shop .content header #gridSearchBar #userButtons{
+   margin-left: 55px;    
+}
+
+#page-shop .content body #productsMenuBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    padding: 0px 200px 0px 200px;
+    background-color: 0;
+}
+
+#page-shop .content body #productsMenuBar .productsMenuButton {
+    background-color: var(--primary-color);
+    color: #fff;
+    width: 220px;
+    height: 60px;
+    border: 0;
+    font-family: Ubuntu, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 22px;
+    
+}
+
+#page-shop .content body h2{
+    display: flex;
+    justify-content: center;
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+#page-shop .content body h3{
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    padding:30px 150px 0px 150px;
+}
+
+
+#page-shop .content body h3 .tab{
+    padding-left: 30px;
+}
+
+#page-shop .content body #productsContainer {
+    padding-top: 50px;
+    border-radius: 0px 8px 8px 0px;
+    padding: 80px 150px 0px 150px;
+}
+
+
+#page-shop .content body #productsContainer #sortingBar{
+    background-color: #e4e4e4;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px 8px 0px 0px;
+}
+
+#page-shop .content body #productsContainer #sortingBar h4{
+    padding-left: 25px;
+    font-family: Cabin, sans-serif;
+} 
+
+#page-shop .content body #productsContainer #sortingBar button{
+    margin-left: 25px;
+    font-family: Cabin, sans-serif;
+    background: 0;
+    border: 0;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#page-shop .content body #productsContainer #sortingBar button #FiChevronDown{
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
