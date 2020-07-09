@@ -1,7 +1,10 @@
 import React from 'react';
 import './styles.css';
-import plant from '../../assets/plant.svg';
-import { FiSearch, FiShoppingCart, FiHeart, FiUser, FiChevronDown } from 'react-icons/fi';
+import logo from '../../assets/plant.svg';
+import plantImg from '../../assets/palmParlor.jpg';
+
+import { FiSearch, FiShoppingCart, FiHeart, FiUser, FiChevronDown, FiList, 
+    FiGrid } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
 const Shop: React.FC = () => {
@@ -12,7 +15,7 @@ const Shop: React.FC = () => {
             <h1>PLANT SHOP</h1>
             <div id="gridSearchBar">
             <div id="reference">
-               <img src={plant} alt="Logo"/>
+               <img src={logo} alt="Logo"/>
             <div >
             Icons made by <a target="_blank" href="https://www.flaticon.com/free-icon/green-tea_1087420" 
             title="dDara">dDara</a> from 
@@ -59,13 +62,57 @@ const Shop: React.FC = () => {
          </h3>
          <div id="productsContainer">
              <div id="sortingBar">
+
+                 <div id="sorting">
                  <h4>Sort by</h4>
                  <button>Best selling 
                      <FiChevronDown id="FiChevronDown"/>
                  </button>
+                 </div>
+                 <div id="viewAs">
+                     <h4>View As</h4>
+                        <button>
+                        <FiList id="viewButton"/>
+                        </button>
+                        
+                        <button>
+                        <FiGrid id="viewButton"/>
+                        </button>
+                        
+                 </div>
+                 
              </div>
+         <div id="products">
+             <li>
+             <img src={plantImg} alt="PalmParlor"/>
+             <h5>$ 8,99</h5>
+             <h6>Palor Palm - 4" Pot</h6>
+             </li>
+             <li>
+             <img src={plantImg} alt="PalmParlor"/>
+             <h5>$ 8,99</h5>
+             <h6>Palor Palm - 4" Pot</h6>
+             </li><li>
+             <img src={plantImg} alt="PalmParlor"/>
+             <h5>$ 8,99</h5>
+             <h6>Palor Palm - 4" Pot</h6>
+             </li><li>
+             <img src={plantImg} alt="PalmParlor"/>
+             <h5>$ 8,99</h5>
+             <h6>Palor Palm - 4" Pot</h6>
+             </li><li>
+             <img src={plantImg} alt="PalmParlor"/>
+             <h5>$ 8,99</h5>
+             <h6>Palor Palm - 4" Pot</h6>
+             </li>
+         </div>
+         
+         
          </div>
          </body>
+         <footer>
+
+         </footer>
          </div>
      </div>
  );

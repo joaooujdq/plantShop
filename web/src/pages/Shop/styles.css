@@ -110,40 +110,103 @@
 }
 
 #page-shop .content body #productsContainer {
-    padding-top: 50px;
-    border-radius: 0px 8px 8px 0px;
-    padding: 80px 150px 0px 150px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 80px 150px 0px 150px;
+    height: 1000px;
+    background-color: #fff;
 }
 
 
-#page-shop .content body #productsContainer #sortingBar{
-    background-color: #e4e4e4;
-    height: 64px;
+#page-shop .content body #productsContainer #sortingBar {
+
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    background-color: #e4e4e4;
+    height: 64px;
     border-radius: 8px 8px 0px 0px;
 }
 
-#page-shop .content body #productsContainer #sortingBar h4{
+#page-shop .content body #productsContainer #sortingBar >  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 64px;
+}
+
+#page-shop .content body #productsContainer #sortingBar #viewAs > h4, button{
+ margin-right: 15px;
+ background-color: #e4e4e4;
+ border: 0;
+ font-size: 16px;
+ font-family: Cabin, sans-serif;
+}
+
+#page-shop .content body #productsContainer #sortingBar #viewAs button > svg{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+   }
+
+#page-shop .content body #productsContainer #sortingBar #sorting h4{
     padding-left: 25px;
     font-family: Cabin, sans-serif;
 } 
 
-#page-shop .content body #productsContainer #sortingBar button{
+#page-shop .content body #productsContainer #sortingBar #sorting button{
     margin-left: 25px;
+    height: 50px;
     font-family: Cabin, sans-serif;
     background: 0;
     border: 0;
     font-size: inherit;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 #page-shop .content body #productsContainer #sortingBar button #FiChevronDown{
     margin-left: 10px;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
+
+#page-shop .content body #productsContainer #products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 50px;
+    column-gap: 50px;
+    padding:  75px 100px;
+}
+
+#page-shop .content body #productsContainer #products li img{
+    height: 245px;
+    width: 245px;
+}
+
+#page-shop .content body #productsContainer #products li {
+    padding: 25px;
+    list-style: none;
+    border: 1px solid rgba(127,127,127,0.16);
+    box-shadow: 0 1px 4px rgba(127,127,127,0.11);
+}
+
+#page-shop .content body #productsContainer #products li h5 {
+    padding-top: 15px;
+    color: red;
+    font-size: 16px;
+    font-family: Cabin, sans-serif;
+}
+
+#page-shop .content body #productsContainer #products li h6 {
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: Cabin, sans-serif;
+}
+
+#page-shop .content footer{
+    height: 150px;
+}
+
 
 

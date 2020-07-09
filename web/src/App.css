@@ -13,12 +13,9 @@
     
   }
   
-  body {
+  body, header, footer{
     -webkit-font-smoothing: antialiased;
     background-color: rgba(5, 57, 45, 0.1);
   }
-  header {
-    -webkit-font-smoothing: antialiased;
-    background-color: rgba(5, 57, 45, 0.1);
-  }
+  
   
