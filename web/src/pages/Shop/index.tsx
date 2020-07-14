@@ -16,12 +16,12 @@ const Shop: React.FC = () => {
             <div id="gridSearchBar">
             <div id="reference">
                <img src={logo} alt="Logo"/>
-            <div >
+            <h3 >
             Icons made by <a target="_blank" href="https://www.flaticon.com/free-icon/green-tea_1087420" 
             title="dDara">dDara</a> from 
             <a target="_blank" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </div>
-            </div>
+            </h3 >
+            </div >
             <input type="text"/>
             <Link to="/" id="searchButton">
             <span>

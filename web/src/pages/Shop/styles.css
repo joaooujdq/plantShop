@@ -1,5 +1,3 @@
-
-
 #page-shop .content header h1{
     display: flex;
     justify-content: center;
@@ -17,13 +15,22 @@
 #page-shop .content header #gridSearchBar #reference img{
     width: 96px;
     height: 96px;
-    margin-left: 400px;
+    
     
 }
-#page-shop .content header #gridSearchBar #reference div{
-    font-size: 12px;
-    padding-top: 30px;
-    padding-left: 280px;
+#page-shop .content header #gridSearchBar #reference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: calc(27% - 105px);
+    
+}
+
+#page-shop .content header #gridSearchBar #reference h3{
+    font-size: 15px;
+    padding-top: 20px;
+    width: 100px;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 #page-shop .content header #gridSearchBar{
@@ -33,9 +40,10 @@
     align-items: center;
 }
 #page-shop .content header #gridSearchBar input{
-    width: 600px;
+    width: 33% ;
+    min-width: 110px;
     height: 40px;
-    margin-left: 30px;
+    margin-left: 3%;
     border-radius: 8px 0px 0px 8px;
     border: 0;
     font-size: inherit;
@@ -63,7 +71,7 @@
 }
 
 #page-shop .content header #gridSearchBar #userButtons{
-   margin-left: 55px;    
+   margin-left: 3%;    
 }
 
 #page-shop .content body #productsMenuBar{
@@ -72,7 +80,7 @@
     align-items: center;
     justify-content: space-between;
     height: 200px;
-    padding: 0px 200px 0px 200px;
+    padding: 0% calc(16% - 90px);
     background-color: 0;
 }
 
@@ -92,14 +100,12 @@
 #page-shop .content body h2{
     display: flex;
     justify-content: center;
-    font-family: Ubuntu, sans-serif;
-    font-style: normal;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
 #page-shop .content body h3{
-    font-family: Ubuntu, sans-serif;
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Cormorant Garamond', serif;
+    
     font-size: 18px;
     padding:30px 150px 0px 150px;
 }
@@ -112,7 +118,7 @@
 #page-shop .content body #productsContainer {
     border-radius: 8px 8px 8px 8px;
     margin: 80px 150px 0px 150px;
-    height: 1000px;
+
     background-color: #fff;
 }
 
@@ -173,15 +179,17 @@
 
 #page-shop .content body #productsContainer #products{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 50px;
-    column-gap: 50px;
-    padding:  75px 100px;
+    grid-template-columns: 18% 18% 18% 18%;
+    justify-content: center;
+    padding: 60px 20px;
+    gap: 50px 50px;
+    
 }
 
 #page-shop .content body #productsContainer #products li img{
-    height: 245px;
-    width: 245px;
+        
+    width: 100%;
+    height: 72.83%;
 }
 
 #page-shop .content body #productsContainer #products li {
@@ -208,5 +216,139 @@
     height: 150px;
 }
 
+@media(min-width: 800px) and (max-width: 1370px){
 
+    #page-shop .content body #productsContainer #products{
+        display: grid;
+        grid-template-columns: 26% 26% 26%;
+        justify-content: center;
+        padding: 60px 20px;
+        column-gap: 50px;
+    }
+    
+    #page-shop .content body h3{
+        padding: 0px 30px 0px 40px;
+    }
+    #page-shop .content body h2{
+        padding: 20px 0px 30px 0px;
+    }
+
+       #page-shop .content body #productsContainer {
+        margin: 80px 30px 0px 30px;
+    }
+       
+
+    #page-shop .content body #productsContainer #products li img{
+        
+        width: 100%;
+        height: 72.83%;
+    }
+
+
+}
+
+@media (min-width: 550px) and ( max-width: 800px){
+    #page-shop .content body #productsMenuBar{
+        display: grid;
+        grid-template-columns: 165px 165px;
+        grid-template-rows: 50px 50px;
+        justify-content: center;
+        align-content: center;
+        gap: 50px 100px;
+        padding: 85px 0px 40px 0px;
+        margin: 0px;
+
+    }
+
+    #page-shop .content body #productsMenuBar .productsMenuButton {
+        
+        width: 165px;
+        height: 50px;
+        font-size: 20px;
+        
+    }
+    
+    #page-shop .content body h3{
+        padding: 0px 30px 0px 40px;
+    }
+    #page-shop .content body h2{
+        padding: 55px 0px 30px 0px;
+    }  
+    #page-shop .content body #productsContainer #products{
+        display: grid;
+        grid-template-columns: 46% 46%;
+        justify-content: center;
+        padding: 40px 20px;
+        column-gap: 20px;
+    }
+    #page-shop .content body #productsContainer {
+        margin: 80px 30px 0px 30px;
+    }
+       
+
+    #page-shop .content body #productsContainer #products li img{
+        
+        width: 100%;
+        height: 72.83%;
+    }
+
+    
+
+}
+
+
+
+@media (max-width: 550px){
+
+    #page-shop .content body #productsMenuBar{
+        display: grid;
+        grid-template-columns: 145px 145px;
+        grid-template-rows: 40px 40px;
+        justify-content: center;
+        align-content: center;
+        gap: 30px 20px;
+        padding: 85px 0px 40px 0px;
+        margin: 0px;
+
+    }
+
+    #page-shop .content body #productsMenuBar .productsMenuButton {
+        
+        width: 145px;
+        height: 40px;
+        font-size: 18px;
+        
+    }
+    
+    #page-shop .content body h3{
+        padding: 0px 30px 0px 40px;
+    }
+    #page-shop .content body h2{
+        padding: 55px 0px 30px 0px;
+    }  
+
+    #page-shop .content body #productsContainer {
+        margin: 80px 30px 0px 30px;
+    }
+       #page-shop .content body #productsContainer #sortingBar #viewAs {
+        display: none;
+       }
+       #page-shop .content body #productsContainer #products{
+        display: grid;
+        grid-template-columns: 72.75%;
+        justify-content: center;
+        padding: 40px 20px;
+    }
+    #page-shop .content body #productsContainer #products li img{
+        
+        width: 100%;
+        height: 72.83%;
+    }
+
+    
+}
+
+
+
+    
 
