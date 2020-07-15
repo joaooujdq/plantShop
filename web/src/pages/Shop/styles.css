@@ -1,80 +1,7 @@
-#page-shop .content header h1{
-    display: flex;
-    justify-content: center;
-    padding-top: 59px;
-    color: var(--primary-color);
-    font-family: Ubuntu, sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-}
 
 
 
-
-#page-shop .content header #gridSearchBar #reference img{
-    width: 96px;
-    height: 96px;
-    
-    
-}
-#page-shop .content header #gridSearchBar #reference {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: calc(27% - 105px);
-    
-}
-
-#page-shop .content header #gridSearchBar #reference h3{
-    font-size: 15px;
-    padding-top: 20px;
-    width: 100px;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-#page-shop .content header #gridSearchBar{
-    padding-top: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-#page-shop .content header #gridSearchBar input{
-    width: 33% ;
-    min-width: 110px;
-    height: 40px;
-    margin-left: 3%;
-    border-radius: 8px 0px 0px 8px;
-    border: 0;
-    font-size: inherit;
-    padding-left : 10px;
-}
-#page-shop .content header #gridSearchBar #searchButton {
-    background-color: var(--primary-color);
-    height: 40px;
-    width: 40px;
-    border-radius: 0px 8px 8px 0px;
-}
-
-#page-shop .content header #gridSearchBar #searchButton span #fiSearch{
-    stroke: #fff;
-    height: 30px;
-    width: 30px;
-    margin: 5px;
-}
-
-#page-shop .content header #gridSearchBar #userButtons #userIcons{
-    stroke: var(--primary-color);
-    height: 30px;
-    width: 30px;
-    
-}
-
-#page-shop .content header #gridSearchBar #userButtons{
-   margin-left: 3%;    
-}
-
-#page-shop .content body #productsMenuBar{
+#page-shop body #productsMenuBar{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -84,7 +11,7 @@
     background-color: 0;
 }
 
-#page-shop .content body #productsMenuBar .productsMenuButton {
+#page-shop body #productsMenuBar .productsMenuButton {
     background-color: var(--primary-color);
     color: #fff;
     width: 220px;
@@ -97,13 +24,13 @@
     
 }
 
-#page-shop .content body h2{
+#page-shop body h2{
     display: flex;
     justify-content: center;
     font-family: 'Cormorant Garamond', serif;
     font-size: 20px;
 }
-#page-shop .content body h3{
+#page-shop body h3{
     font-family: 'Cormorant Garamond', serif;
     
     font-size: 18px;
@@ -111,11 +38,11 @@
 }
 
 
-#page-shop .content body h3 .tab{
+#page-shop body h3 .tab{
     padding-left: 30px;
 }
 
-#page-shop .content body #productsContainer {
+#page-shop body #productsContainer {
     border-radius: 8px 8px 8px 8px;
     margin: 80px 150px 0px 150px;
 
@@ -123,7 +50,7 @@
 }
 
 
-#page-shop .content body #productsContainer #sortingBar {
+#page-shop body #productsContainer #sortingBar {
 
     display: flex;
     flex-direction: row;
@@ -133,14 +60,14 @@
     border-radius: 8px 8px 0px 0px;
 }
 
-#page-shop .content body #productsContainer #sortingBar >  div {
+#page-shop body #productsContainer #sortingBar >  div {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 64px;
 }
 
-#page-shop .content body #productsContainer #sortingBar #viewAs > h4, button{
+#page-shop body #productsContainer #sortingBar #viewAs > h4, button{
  margin-right: 15px;
  background-color: #e4e4e4;
  border: 0;
@@ -148,18 +75,18 @@
  font-family: Cabin, sans-serif;
 }
 
-#page-shop .content body #productsContainer #sortingBar #viewAs button > svg{
+#page-shop body #productsContainer #sortingBar #viewAs button > svg{
     height: 20px;
     width: 20px;
     cursor: pointer;
    }
 
-#page-shop .content body #productsContainer #sortingBar #sorting h4{
+#page-shop body #productsContainer #sortingBar #sorting h4{
     padding-left: 25px;
     font-family: Cabin, sans-serif;
 } 
 
-#page-shop .content body #productsContainer #sortingBar #sorting button{
+#page-shop body #productsContainer #sortingBar #sorting button{
     margin-left: 25px;
     height: 50px;
     font-family: Cabin, sans-serif;
@@ -171,13 +98,13 @@
     cursor: pointer;
 }
 
-#page-shop .content body #productsContainer #sortingBar button #FiChevronDown{
+#page-shop body #productsContainer #sortingBar button #FiChevronDown{
     margin-left: 10px;
     height: 25px;
     width: 25px;
 }
 
-#page-shop .content body #productsContainer #products{
+#page-shop body #productsContainer #products{
     display: grid;
     grid-template-columns: 18% 18% 18% 18%;
     justify-content: center;
@@ -186,39 +113,39 @@
     
 }
 
-#page-shop .content body #productsContainer #products li img{
+#page-shop body #productsContainer #products li img{
         
     width: 100%;
     height: 72.83%;
 }
 
-#page-shop .content body #productsContainer #products li {
+#page-shop body #productsContainer #products li {
     padding: 25px;
     list-style: none;
     border: 1px solid rgba(127,127,127,0.16);
     box-shadow: 0 1px 4px rgba(127,127,127,0.11);
 }
 
-#page-shop .content body #productsContainer #products li h5 {
+#page-shop body #productsContainer #products li h5 {
     padding-top: 15px;
     color: red;
     font-size: 16px;
     font-family: Cabin, sans-serif;
 }
 
-#page-shop .content body #productsContainer #products li h6 {
+#page-shop body #productsContainer #products li h6 {
     padding-top: 15px;
     font-size: 15px;
     font-family: Cabin, sans-serif;
 }
 
-#page-shop .content footer{
+#page-shop footer{
     height: 150px;
 }
 
 @media(min-width: 800px) and (max-width: 1370px){
 
-    #page-shop .content body #productsContainer #products{
+    #page-shop body #productsContainer #products{
         display: grid;
         grid-template-columns: 26% 26% 26%;
         justify-content: center;
@@ -226,19 +153,19 @@
         column-gap: 50px;
     }
     
-    #page-shop .content body h3{
+    #page-shop body h3{
         padding: 0px 30px 0px 40px;
     }
-    #page-shop .content body h2{
+    #page-shop body h2{
         padding: 20px 0px 30px 0px;
     }
 
-       #page-shop .content body #productsContainer {
+       #page-shop body #productsContainer {
         margin: 80px 30px 0px 30px;
     }
        
 
-    #page-shop .content body #productsContainer #products li img{
+    #page-shop body #productsContainer #products li img{
         
         width: 100%;
         height: 72.83%;
@@ -248,7 +175,7 @@
 }
 
 @media (min-width: 550px) and ( max-width: 800px){
-    #page-shop .content body #productsMenuBar{
+    #page-shop body #productsMenuBar{
         display: grid;
         grid-template-columns: 165px 165px;
         grid-template-rows: 50px 50px;
@@ -260,7 +187,7 @@
 
     }
 
-    #page-shop .content body #productsMenuBar .productsMenuButton {
+    #page-shop body #productsMenuBar .productsMenuButton {
         
         width: 165px;
         height: 50px;
@@ -268,25 +195,25 @@
         
     }
     
-    #page-shop .content body h3{
+    #page-shop body h3{
         padding: 0px 30px 0px 40px;
     }
-    #page-shop .content body h2{
+    #page-shop body h2{
         padding: 55px 0px 30px 0px;
     }  
-    #page-shop .content body #productsContainer #products{
+    #page-shop body #productsContainer #products{
         display: grid;
         grid-template-columns: 46% 46%;
         justify-content: center;
         padding: 40px 20px;
         column-gap: 20px;
     }
-    #page-shop .content body #productsContainer {
+    #page-shop body #productsContainer {
         margin: 80px 30px 0px 30px;
     }
        
 
-    #page-shop .content body #productsContainer #products li img{
+    #page-shop body #productsContainer #products li img{
         
         width: 100%;
         height: 72.83%;
@@ -300,7 +227,7 @@
 
 @media (max-width: 550px){
 
-    #page-shop .content body #productsMenuBar{
+    #page-shop body #productsMenuBar{
         display: grid;
         grid-template-columns: 145px 145px;
         grid-template-rows: 40px 40px;
@@ -312,7 +239,7 @@
 
     }
 
-    #page-shop .content body #productsMenuBar .productsMenuButton {
+    #page-shop body #productsMenuBar .productsMenuButton {
         
         width: 145px;
         height: 40px;
@@ -320,26 +247,26 @@
         
     }
     
-    #page-shop .content body h3{
+    #page-shop body h3{
         padding: 0px 30px 0px 40px;
     }
-    #page-shop .content body h2{
+    #page-shop body h2{
         padding: 55px 0px 30px 0px;
     }  
 
-    #page-shop .content body #productsContainer {
+    #page-shop body #productsContainer {
         margin: 80px 30px 0px 30px;
     }
-       #page-shop .content body #productsContainer #sortingBar #viewAs {
+       #page-shop body #productsContainer #sortingBar #viewAs {
         display: none;
        }
-       #page-shop .content body #productsContainer #products{
+       #page-shop body #productsContainer #products{
         display: grid;
         grid-template-columns: 72.75%;
         justify-content: center;
         padding: 40px 20px;
     }
-    #page-shop .content body #productsContainer #products li img{
+    #page-shop body #productsContainer #products li img{
         
         width: 100%;
         height: 72.83%;

@@ -1,0 +1,105 @@
+header{
+    background: url('../../assets/wallpaperHeader.png') no-repeat ;
+    
+}
+
+header h1{
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #FFF;
+    font-family: Ubuntu, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+header #gridSearchBar #reference img{
+    width: 70px;
+    height: 70px;
+    color: #FFF;
+    
+    
+}
+header #gridSearchBar #reference {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: calc(28% - 105px);
+    
+}
+
+header #gridSearchBar #reference h3, #link{
+    font-size: 14px;
+    padding-top: 20px;
+    width: 150px;
+    font-family: 'Cormorant Garamond', serif;
+    color: #FFF;
+}
+
+header #gridSearchBar{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+header #gridSearchBar div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header #gridSearchBar div #searchBar input{
+    width: 33% ;
+    min-width: 270px;
+    height: 40px;
+    margin-left: 2%;
+    border-radius: 8px 0px 0px 8px;
+    border: 0;
+    font-size: inherit;
+    padding-left: 5px;
+    
+}
+header #gridSearchBar div #searchBar #searchButton {
+    background-color: var(--primary-color);
+    height: 40px;
+    width: 40px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+header #gridSearchBar div #searchBar #searchButton span #fiSearch{
+    stroke: #fff;
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+header #gridSearchBar div #barButtons #userButtons #userIcons{
+    stroke: #FFF;
+    height: 30px;
+    width: 30px;
+    stroke-width: 2.5px;
+    
+}
+
+header #gridSearchBar div #barButtons > #userButtons{
+   margin-left: 3%;    
+}
+
+@media (max-width: 480px){
+    
+    header #gridSearchBar div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header #gridSearchBar div #barButtons{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+} 

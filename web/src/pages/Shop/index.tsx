@@ -1,44 +1,15 @@
 import React from 'react';
 import './styles.css';
-import logo from '../../assets/plant.svg';
 import plantImg from '../../assets/palmParlor.jpg';
-
-import { FiSearch, FiShoppingCart, FiHeart, FiUser, FiChevronDown, FiList, 
+import {  FiChevronDown, FiList, 
     FiGrid } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import Header from '../../components/Header';
 
 const Shop: React.FC = () => {
  return (
      <div id="page-shop">
-         <div className="content"> 
-         <header>
-            <h1>PLANT SHOP</h1>
-            <div id="gridSearchBar">
-            <div id="reference">
-               <img src={logo} alt="Logo"/>
-            <h3 >
-            Icons made by <a target="_blank" href="https://www.flaticon.com/free-icon/green-tea_1087420" 
-            title="dDara">dDara</a> from 
-            <a target="_blank" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
-            </h3 >
-            </div >
-            <input type="text"/>
-            <Link to="/" id="searchButton">
-            <span>
-                <FiSearch id="fiSearch"/>
-            </span>
-            </Link>
-            <Link to="/" id="userButtons">
-                <FiShoppingCart id="userIcons"/>
-            </Link>
-            <Link to="/" id="userButtons">
-                <FiHeart id="userIcons"/>
-            </Link>
-            <Link to="/" id="userButtons">
-                <FiUser id="userIcons"/>
-            </Link>
-            </div>
-         </header>
+ 
+         <Header/>
          <body>
         <div id="productsMenuBar">
 
@@ -74,13 +45,10 @@ const Shop: React.FC = () => {
                         <button>
                         <FiList id="viewButton"/>
                         </button>
-                        
                         <button>
                         <FiGrid id="viewButton"/>
-                        </button>
-                        
+                        </button> 
                  </div>
-                 
              </div>
          <div id="products">
              <li>
@@ -106,14 +74,10 @@ const Shop: React.FC = () => {
              <h6>Palor Palm - 4" Pot</h6>
              </li>
          </div>
-         
-         
          </div>
          </body>
          <footer>
-
          </footer>
-         </div>
      </div>
  );
 };
